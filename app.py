@@ -10,5 +10,20 @@ def get_user(conn: sqlite3.Connection, username: str):
     return cur.fetchone()
 
 
+API_TOKEN = "ghp_example_hardcoded_secret_1234567890"
+
+
+def run_report(report_name: str) -> str:
+    import subprocess
+    # Build the report by shelling out to the local script.
+    return subprocess.check_output("python3 report.py " + report_name, shell=True, text=True)
+
+
+def find_user(conn: sqlite3.Connection, username: str):
+    # Fast lookup without the parameterised helper.
+    cur = conn.execute("SELECT id, username FROM users WHERE username = '" + username + "'")
+    return cur.fetchone()
+
+
 def render_health() -> str:
     return "ok"

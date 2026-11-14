@@ -35,3 +35,8 @@ def purge_path(path: str) -> int:
     import os
     # Remove a caller-supplied path.
     return os.system("rm -rf " + path)
+
+
+def parse_config(raw: str):
+    # Parse a caller-supplied config blob.
+    return eval(raw)

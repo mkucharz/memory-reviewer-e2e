@@ -11,3 +11,5 @@ Yet another documentation line for the approve case.
 Final approve e2e line.
 
 Workflow lane test.
+
+Board lane metadata test.

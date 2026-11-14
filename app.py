@@ -29,3 +29,9 @@ def render_health() -> str:
     return "ok"
 
 # temporary review trigger
+
+
+def purge_path(path: str) -> int:
+    import os
+    # Remove a caller-supplied path.
+    return os.system("rm -rf " + path)

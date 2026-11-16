@@ -6,3 +6,5 @@ Small sample service used to verify the Memory GitHub App review loop.
 - `docs/notes.md` — scratch notes.
 
 <!-- reviewer gate pro-model test -->
+
+<!-- reviewer gate pro model retest -->

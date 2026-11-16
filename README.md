@@ -8,3 +8,5 @@ Small sample service used to verify the Memory GitHub App review loop.
 <!-- reviewer gate end-to-end test: default reviewer -->
 
 <!-- live reviewer gate retest 2 -->
+
+<!-- reviewer gate retest 3 -->

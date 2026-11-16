@@ -8,3 +8,5 @@ Small sample service used to verify the Memory GitHub App review loop.
 <!-- reviewer gate pro-model test -->
 
 <!-- reviewer gate pro model retest -->
+
+<!-- reviewer gate ready open retest -->

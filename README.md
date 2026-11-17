@@ -12,3 +12,5 @@ Small sample service used to verify the Memory GitHub App review loop.
 <!-- reviewer lane head key check -->
 
 <!-- reviewer lane retirement check -->
+
+<!-- reviewer ready-match check -->

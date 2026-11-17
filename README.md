@@ -10,3 +10,5 @@ Small sample service used to verify the Memory GitHub App review loop.
 <!-- head invalidation check -->
 
 <!-- reviewer lane head key check -->
+
+<!-- reviewer lane retirement check -->

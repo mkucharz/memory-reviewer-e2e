@@ -8,3 +8,5 @@ Small sample service used to verify the Memory GitHub App review loop.
 <!-- reviewer lanes end-to-end test -->
 
 <!-- head invalidation check -->
+
+<!-- reviewer lane head key check -->

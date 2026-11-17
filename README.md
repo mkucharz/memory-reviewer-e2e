@@ -6,3 +6,5 @@ Small sample service used to verify the Memory GitHub App review loop.
 - `docs/notes.md` — scratch notes.
 
 <!-- reviewer lanes end-to-end test -->
+
+<!-- head invalidation check -->

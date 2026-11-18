@@ -1,0 +1,18 @@
+name: ci
+on:
+  pull_request:
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deterministic fixture CI
+        run: |
+          labels='${{ join(github.event.pull_request.labels.*.name, ',') }}'
+          echo "labels=$labels"
+          if [[ ",$labels," == *",test:ci-fail,"* ]]; then
+            echo "intentional CI failure"; exit 1
+          fi
+          if [[ ",$labels," == *",test:ci-slow,"* ]]; then
+            sleep 30
+          fi
+          echo "fixture CI passed"
